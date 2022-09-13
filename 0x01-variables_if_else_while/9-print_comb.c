@@ -4,46 +4,46 @@
 
 /**
 
- * main - Entry point
+* main - Entry point
 
- * Description: prints numbers
+* Description: prints numbers
 
- * Return: Always 0 (success)
+* Return: Always 0 (success)
 
- */
+*/
 
 int main(void)
 
 {
 
-	int i;
+int i;
 
 
 
-	for (i = '0'; i <= '9' ; i++)
+for (i = '0'; i <= '9' ; i++)
 
-	{
+{
 
-		putchar(i);
-
-
-
-		if (i != '9')
-
-		{
-
-			putchar(',');
-
-			putchar(' ');
-
-		}
-
-	}
+putchar(i);
 
 
 
-	putchar('\n');
+if (i != '9')
 
-	return (0);
+{
+
+putchar(',');
+
+putchar(' ');
+
+}
+
+}
+
+
+
+putchar('\n');
+
+return (0);
 
 }
