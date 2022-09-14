@@ -4,19 +4,19 @@
 
 /**
 
- * add - add two numbers from input
+* add - add two numbers from input
 
- * @a: first aparamet
+* @a: first aparamet
 
- * @b: second parameter
+* @b: second parameter
 
- *
+*
 
- * Description: adds two numbers
+* Description: adds two numbers
 
- * Return: Always (0).
+* Return: Always (0).
 
- */
+*/
 
 
 
@@ -24,6 +24,6 @@ int add(int a, int b)
 
 {
 
-	return (a + b);
+return (a + b);
 
 }
