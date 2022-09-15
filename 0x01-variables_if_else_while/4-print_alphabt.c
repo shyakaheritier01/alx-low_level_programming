@@ -1,14 +1,16 @@
 #include <stdio.h>
 
-#include <unistd.h>
-
 /**
 
- * main - Entry point
+ * main - print if the number is postive, zero, or negative
 
- * Description: prints all possible combination of 2-digit numbers
+ *
 
- * Return: Always 0 (success)
+ * Description: using the main function
+
+ * this program prints "Programming is positive, zero, or negative
+
+ * Return: 0
 
  */
 
@@ -16,72 +18,24 @@ int main(void)
 
 {
 
-	int c, i, k, j;
+char ch;
 
+for (ch = 'a' ; ch <= 'z' ; ch++)
 
+{
 
-	for (c = 48; c <= 57; c++)
+if (ch != 'e' && ch != 'q')
 
-	{
+{
 
-		for (i = 48; i <= 57; i++)
+	putchar(ch);
 
-		{
+}
 
-			for (k = 48; k <= 57; k++)
+}
 
-			{
+putchar('\n');
 
-				for (j = 48; j <= 57; j++)
-
-				{
-
-				if (((k + j) > (c + i) &&  k >= c) || c < k)
-
-				{
-
-					putchar(c);
-
-					putchar(i);
-
-					putchar(' ');
-
-					putchar(k);
-
-					putchar(j);
-
-
-
-					if (c + i + k + j == 227 && c == 57)
-
-					{
-
-					break;
-
-					}
-
-					else
-
-					{
-
-					putchar(',');
-
-					putchar(' ');
-
-					}
-
-				}
-
-				}
-
-			}
-
-		}
-
-	}
-
-	putchar('\n');
-
-	return (0);
+return (0);
 
 }
