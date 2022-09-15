@@ -4,26 +4,20 @@
 
 /**
 
-* add - add two numbers from input
+ * main - check the code.
 
-* @a: first aparamet
+ *
 
-* @b: second parameter
+ * Return: Always 0.
 
-*
+ */
 
-* Description: adds two numbers
-
-* Return: Always (0).
-
-*/
-
-
-
-int add(int a, int b)
+int main(void)
 
 {
 
-return (a + b);
+    print_alphabet_x10();
+
+    return (0);
 
 }
