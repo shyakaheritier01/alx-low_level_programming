@@ -1,61 +1,35 @@
 #include <stdio.h>
 
-#include <unistd.h>
-
 /**
 
- * main - Entyr point
+* main - print if the number is postive, zero, or negative
 
- * Description: prints two digits combination
+*
 
- * Return: Always 0 (success)
+* Description: using the main function
 
- */
+* this program prints "Programming is positive, zero, or negative
+
+* Return: 0
+
+*/
 
 int main(void)
 
 {
 
-	int c, i;
+char ch;
 
+for (ch = 'a' ; ch <= 'z' ; ch++)
 
+{
 
-	for (c = '0'; c <= '9'; c++)
+	putchar(ch);
 
-	{
+}
 
-		for (i = '0'; i <= '9'; i++)
+putchar('\n');
 
-		{
-
-			if (c < i)
-
-			{
-
-				putchar(c);
-
-				putchar(i);
-
-
-
-				if (c != '8' || (c == '8' && i != '9'))
-
-				{
-
-					putchar(',');
-
-					putchar(' ');
-
-				}
-
-			}
-
-		}
-
-	}
-
-	putchar('\n');
-
-	return (0);
+return (0);
 
 }
