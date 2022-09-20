@@ -1,45 +1,35 @@
-#ifndef MAIN_H
+#include "main.h"
 
-#define MAIN_H
+#include <stdio.h>
 
 
 
 /**
 
-*main - header file for protoypes
+ * main - check the code 
 
-*void protoypes (void)
+ *
 
-*int protoypes (int)
+ * Return: Always 0.
 
-*/
+ */
 
+int main(void)
 
+{
 
-void print_numbers(void);
-
-void print_most_numbers(void);
-
-void more_numbers(void);
-
-void print_line(int n);
-
-void print_diagonal(int n);
-
-void print_square(int size);
-
-void print_triangle(int size);
-
-void print_number(int n);
-
-int _putchar(char);
-
-int _isupper(int);
-
-int _isdigit(int);
-
-int mul(int, int);
+    int n;
 
 
 
-#endif /* MAIN_H */
+    n = 402;
+
+    printf("n=%d\n", n);
+
+    reset_to_98(&n);
+
+    printf("n=%d\n", n);
+
+    return (0);
+
+}
