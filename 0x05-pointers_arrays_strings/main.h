@@ -1,35 +1,63 @@
-#include "main.h"
+#ifndef MAIN_H                                                                                                                          
 
-#include <stdio.h>
+                                                                                                                                        
 
+#define MAIN_H                                                                                                                          
 
+                                                                                                                                        
 
-/**
+                                                                                                                                        
 
- * main - check the code 
+                                                                                                                                        
 
- *
+/**                                                                                                                                     
 
- * Return: Always 0.
+                                                                                                                                        
 
- */
+                                                                                                                                        
 
-int main(void)
+                                                                                                                                        
 
-{
+* void prototypes()                                                                                                                     
 
-    int n;
+                                                                                                                                        
 
+                                                                                                                                        
 
+                                                                                                                                        
 
-    n = 402;
+* int prototypes()                                                                                                                      
 
-    printf("n=%d\n", n);
+                                                                                                                                        
 
-    reset_to_98(&n);
+                                                                                                                                        
 
-    printf("n=%d\n", n);
+                                                                                                                                        
 
-    return (0);
+*/                                                                                                                                      
 
-}
+                                                                                                                                        
+
+                                                                                                                                        
+
+void rest_to_98(int *n);
+
+void swap_int(int *a, int *b);
+
+int _strlen(char *s);
+
+void _puts(char *str);
+
+void print_rev(char *s);
+
+void rev_string(char *s);
+
+void puts2(char *str);
+
+void puts_half(char *str);
+
+char *_strcpy(char *dest, char *src);
+
+int _atoi(char *str);
+
+#endif /*MAIN_H*/
