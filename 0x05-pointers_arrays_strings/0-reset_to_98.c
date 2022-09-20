@@ -1,27 +1,36 @@
 #include <stdio.h>
-
 #include "main.h"
-
-
 
 /**
 
- * reset_to_98 - Resets the value fo a variable to 98
+* _puts - prints a string
 
- * @n: a pointer dereference for changing the value of the variable
+* @str: string to print
 
- * Author: Sammykingx
+*
 
- * Return 0 success.
+* Description: prints a string
+
+* On success: returns no error
 
 */
 
-
-
-void reset_to_98(int *n)
+void _puts(char *str)
 
 {
 
-	*n = 98;
+	int i = 0;
+	while (*(str + i) != '\0')
+
+
+	{
+
+		putchar(*(str + i));
+
+		i++;
+
+	}
+
+	putchar(10);
 
 }
