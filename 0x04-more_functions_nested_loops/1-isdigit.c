@@ -1,18 +1,14 @@
+#!/bin/bash
 #include "main.h"
-
-
-
 /**
 
-*_isdigit - checks whether a  character is a digit or not
+ * _isdigit -  a function that checks for a digit 0-9
 
-*@c: tested character
+ * @c: input
 
-*Return: 1 if it is, 0 otherwise
+ * Return: 1 if c is a digit, 0 otherwise
 
-*/
-
-
+ */
 
 int _isdigit(int c)
 
@@ -20,14 +16,10 @@ int _isdigit(int c)
 
 	if ((c >= 48) && (c <= 57))
 
-	{
-
 		return (1);
 
-	}
+	else
 
-
-
-	return (0);
+		return (0);
 
 }
