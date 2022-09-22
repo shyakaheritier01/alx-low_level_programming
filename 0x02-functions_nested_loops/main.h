@@ -4,34 +4,35 @@
 
 
 
-int _putchar(char);
+Int _putchar(char);
 
-void print_alphabet(void);
+Void print_alphabet(void);
 
-void print_alphabet_x10(void);
+Void print_alphabet_x10(void);
 
-int _islower(int c);
+Int _islower(int c);
 
-int _isalpha(int c);
+Int _isalpha(int c);
 
-int print_sign(int n);
+Int print_sign(int n);
 
-int _abs(int);
+Int _abs(int);
 
-int print_last_digit(int);
+Int print_last_digit(int);
 
-void jack_bauer(void);
+Void jack_bauer(void);
 
-void times_table(void);
+Void times_table(void);
 
-int add(int a, int b);
+Int add(int a, int b);
 
-void print_to_98(int n);
+Void print_to_98(int n);
 
-void print_times_table(int n);
+Void print_times_table(int n);
 
-void num(int r, int n);
+Void num(int r, int n);
 
 
 
 #endif
+
