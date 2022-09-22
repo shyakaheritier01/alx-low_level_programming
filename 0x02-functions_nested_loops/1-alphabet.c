@@ -1,9 +1,8 @@
-#!/bin/bash
-#include "main.h"
+#include “main.h”
 
 /**
 
- * print_alphabet - function to print abc
+ * print_alphabet – function to print abc
 
  *
 
@@ -11,22 +10,23 @@
 
  */
 
-void print_alphabet(void)
+Void print_alphabet(void)
 
 {
 
-	char c;
+	Char c;
 
 
 
-	for (c = 'a'; c <= 'z'; c++)
+	For (c = ‘a’; c <= ‘z’; c++)
 
 	{
 
-		_putchar(c);
+		_putchar©;
 
 	}
 
-_putchar('\n');
+_putchar(‘\n’);
 
 }
+
