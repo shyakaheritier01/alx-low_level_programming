@@ -1,36 +1,82 @@
-#include <stdio.h>
 #include "main.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
 
-* _puts - prints a string
 
-* @str: string to print
 
-*
 
-* Description: prints a string
 
-* On success: returns no error
+* reset_to_98 - ur comment
+
+
+
+
+
+* @n: pointer
+
+
+
+
+
+* Return: void
+
+
+
+
 
 */
 
-void _puts(char *str)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void reset_to_98(int *n)
+
+
+
+
 
 {
 
-	int i = 0;
-	while (*(str + i) != '\0')
 
 
-	{
 
-		putchar(*(str + i));
 
-		i++;
+	*n = 98;
 
-	}
 
-	putchar(10);
+
+
 
 }
+
+
+
