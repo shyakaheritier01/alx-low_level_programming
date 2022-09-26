@@ -1,4 +1,15 @@
-nt _putchar(char c);                                                                                                              
+#ifndef MAIN_H                                                                                                                     
+
+#define MAIN_H                                                                                                                     
+
+                                                                                                                                   
+
+/**
+
+ * void Prototypes()
+ * int Prototypes()
+ */
+int _putchar(char c);                                                                                                              
 
 void *_memset(void *s, int c, size_t n);                                                                                           
 
@@ -16,4 +27,10 @@ void print_chessboard(char (*a)[8]);
 
 void print_diagsums(int *a, int size);                                                                                             
 
-void set_string(char **s, char *to)
+void set_string(char **s, char *to);                                                                                               
+
+                                                                                                                                   
+
+#endif
+
+
