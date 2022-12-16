@@ -2,9 +2,9 @@ nclude <stdio.h>
 
 /**
  *
- *  * main - main block
+ *  * Description: main - Prints out a string to stdout.
  *
- *   * Return: 0
+ *   * Return: 0 if success.
  *
  *    */
 
