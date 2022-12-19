@@ -1,43 +1,39 @@
-#include "main.h"
-
-
+#include "holberton.h"
 
 /**
 
- * main - print putchar
+ * main - Entry point
 
- * Return: always 0
+ * Description: prints 'Holberton \n'
+
+ * Return: Always 0 (success)
 
  */
-
-
 
 int main(void)
 
 {
 
-	_putchar('_');
+char str[] = "Holberton\n";
 
-	_putchar('p');
-
-	_putchar('u');
-
-	_putchar('t');
-
-	_putchar('c');
-
-	_putchar('h');
-
-	_putchar('a');
-
-	_putchar('r');
-
-	_putchar('\n');
+int i = 0;
 
 
 
-	return (0);
+while (str[i] != '\0')
+
+	{
+
+	char c = str[i];
 
 
+
+	_putchar(c);
+
+	i++;
+
+	}
+
+return (0);
 
 }
