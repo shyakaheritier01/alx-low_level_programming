@@ -1,39 +1,46 @@
-#include "main.h"
+#include "main.h"                                                                                                                    
 
+                                                                                                                                     
 
+/**                                                                                                                                  
 
-/**
+ * _memset - Fills the first n bytes of the memory area                                                                              
 
- * _memset - ironnou
+ *          pointed to by @s with the constant byte @c.                                                                              
 
- * @s: pointer to char params
+ * @s: A pointer to the memory area to be filled.                                                                                    
 
- * @b: data to change
+ * @c: The character to fill the memory area with.                                                                                   
 
- * @n: index
+ * @n: The number of bytes to be filled.                                                                                             
 
- * Return: *s
+ * description _memset: over there                                                                                                   
 
- */
+ *                                                                                                                                   
 
+ * Return: A pointer to the filled memory area @s.                                                                                   
 
+ *                                                                                                                                   
 
-char *_memset(char *s, char b, unsigned int n)
+ */                                                                                                                                  
 
-{
+void *_memset(void *s, int c, size_t n)                                                                                              
 
-	unsigned int i;
+{                                                                                                                                    
 
+        unsigned int index;                                                                                                          
 
+        unsigned char *memory = s, value = c;                                                                                        
 
-	for (i = 0; i < n; i++)
+                                                                                                                                     
 
-	{
+        for (index = 0; index < n; index++)                                                                                          
 
-		s[i] = b;
+                memory[index] = value;                                                                                               
 
-	}
+                                                                                                                                     
 
-	return (s);
+        return (memory);                                                                                                             
 
 }
+
